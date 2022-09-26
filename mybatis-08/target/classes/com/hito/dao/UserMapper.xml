@@ -11,6 +11,7 @@
 <!--            flushInterval="60000"-->
 <!--            size="512"-->
 <!--            readOnly="true"/>-->
+    <!--自定义使用缓存ehcache -->
     <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 
     <select id="queryUserById" resultType="user">
