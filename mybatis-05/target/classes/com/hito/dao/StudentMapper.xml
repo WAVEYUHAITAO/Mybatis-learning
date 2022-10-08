@@ -46,7 +46,7 @@
     </resultMap>
 
     <select id="getTeacher" resultType="Teacher">
-        select * from mybatis.teacher where id = #{1234561}
+        select * from mybatis.teacher where id = #{tid}
     </select>
 
 
